@@ -34,6 +34,7 @@ function getNews (){
                   <p class="card-text">Author: ${value2.articles[i].author} <br> 
                   Source: ${value2.articles[i].source.name}<br> 
                   <small class="text-body-secondary">Published On: ${value2.articles[i].publishedAt}</small></p>
+                  <a href="${value2.articles[i].url}" class="btn btn-primary">Read More</a>
                 </div>
               </div>
             </div>
